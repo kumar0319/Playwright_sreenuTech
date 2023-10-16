@@ -1,0 +1,35 @@
+	Imp Features of Playwright :- 
+	
+	API 
+	
+	Accessiblity testing 
+	
+	Mobile web automation 
+	
+	built-in reports and custom reports 
+	
+	parallel execution by default 
+	
+	retry 
+	
+	explore selectors
+	
+	test params --- test data driven 
+	
+	fast 
+	
+	
+	
+	
+	
+	
+	Setup :- 
+	1. Nodejs 
+	2. Visual studio code 
+	3. setup for playwright
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,26 @@
+							Playwright 
+
+What ?
+OpenSource tool --> MS 
+
+Puppter --> google --> chrome
+MS-- Hired --> Puppter team --> started playwright -->more browser support 
+made more easy to code 
+
+Playwright --> Web app , mobile web app , API -- Axios
+
+Lang :- JS, TS, JAVA, PYTHON,C# WITH .NET
+
+Browsers -> all modern browser --> chromium, webkit, FF
+
+OS--> windows,mac, lunix
+
+
+
+Wait --> 
+
+
+
+
+
+
