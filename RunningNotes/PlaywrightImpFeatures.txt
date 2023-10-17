@@ -26,7 +26,7 @@
 	Setup :- 
 	1. Nodejs 
 	2. Visual studio code 
-	3. setup for playwright
+	3. setup for playwright  --> npm init playwright
 	
 	
 	
