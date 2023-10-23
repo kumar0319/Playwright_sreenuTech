@@ -18,7 +18,7 @@ export default defineConfig({
   /* Retry on CI only */
   retries: 0,
 
-  timeout: 90*60*1000,
+  timeout: 500000,
 
   globalTimeout: 500*70000,
 

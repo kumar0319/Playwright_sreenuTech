@@ -1,0 +1,17 @@
+property -- ID , anything that is uniqe to identify the element in the dom 
+css --> #
+xpath --> 
+
+//*[@id="w-node-f1830025-b9a0-97d6-34f1-96756c47cac1-4d861332"]/div[1]
+
+/html/body/div[2]/div[2]/div/div/div/div/div[2]/div[1]
+
+
+page is fixure in playwright 
+
+  await page.locator('selectors') --> is to intract with webelements in web using dom 
+  
+  How to write selectors :- 
+  
+  
+  
