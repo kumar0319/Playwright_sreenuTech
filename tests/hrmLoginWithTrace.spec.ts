@@ -1,10 +1,13 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("This to Automate the HRM login use cases", () => {
-    test("To verify the login functionality with valid details ", async ({
-        page,
-    }) => {
-        // test.slow();
+    test("To verify the login functionality with valid details @r1223", async ({browser}) => {
+ 
+        const context = await browser.newContext();
+        // await context.tracing.start({ screenshots: true, snapshots: true });
+        const page = await context.newPage();
+
+        console.log()
 
         await page.goto(
             "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"),
@@ -19,13 +22,8 @@ test.describe("This to Automate the HRM login use cases", () => {
 
 
         await page.getByRole('button', { name: ' Login ' }).click();
+        
+        // await context.tracing.stop({ path: 'traceHRM.zip' });
 
-        await page.pause();
-
-        // http://zero.webappsecurity.com/login.html?login_error=true
-        let name = await page.locator(".alert-error")
-            
-
-        // expect(name).toBe("Jacqueline Wagner");
     });
 });

@@ -1,0 +1,7 @@
+Trace:- 
+to get the trace from the playwright and get access to logs, call,screenshots , snapshots and dom
+
+
+Playwright UI mode :- 
+This will help us to run the scripts throw playwright ui trace 
+cmd :- npx playwright test --ui

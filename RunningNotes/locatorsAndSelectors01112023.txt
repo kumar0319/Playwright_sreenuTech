@@ -1,0 +1,41 @@
+
+Selectors 
+
+1. xpath 
+Simple xpath "- //div[@id="sidebar-profile-picture"]/a
+complex:- //a[@data-tooltip="Employee Management" and (@class="main-menu-item-1 active" or @class="main-menu-item-1 superactive" )]
+
+//label[text()='Status']/parent::div/following-sibling::div//div[@class='oxd-select-text oxd-select-text--active']
+
+//label[text()='User Role']//ancestor::div[@class='oxd-form-row']/following-sibling::div
+
+
+2. css 
+simple :- with ID:- #app
+css with cLASS  :- .oxd-layout
+CLASS with xpath :- //div[@class='oxd-layout']
+
+
+
+
+3. property 
+user the property/attribute of the particular tag 
+eg :- 
+await page.locator("id=txtUsername").fill('admin')
+using xpath:- await page.locator("//div[@id='sidebar-profile-picture']/a").textContent();
+
+
+
+
+using property :=- await page.locator("id=sidebar-profile-picture").textContent();
+
+4. inbuild methods 
+page.getByAltText() - to locate an element, usually image, by its text alternative.
+page.getByPlaceholder() - to locate an input by placeholder.
+page.getByRole() to locate by explicit and implicit accessibility attributes.
+page.getByText() to locate by text content.
+
+page.getByLabel() to locate a form control by associated label's text.
+page.getByTitle() to locate an element by its title attribute.
+page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
+page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).

@@ -14,6 +14,8 @@ test.describe('This is to test playwright website module list', () => {
         
         await page.pause();
 
+        await page.evaluate('document.querySelector(".oxd-select-wrapper")')
+
     
 
     });  
